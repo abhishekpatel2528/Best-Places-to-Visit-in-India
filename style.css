@@ -1,0 +1,129 @@
+html,
+body {
+  height: 100%;
+  margin: o;
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.flag{
+  background-image: url(assets/flag.jpg);
+  min-height: 100%;
+}
+.tajmahal {
+  background-image: url(assets/tajmahal.jpg);
+  min-height: 100%;
+}
+.jaipur {
+  background-image: url(assets/jaipur.jpg);
+  min-height: 100%;
+}
+.ladakh {
+  background-image: url(assets/ladakh.jpg);
+  min-height: 100%;
+}
+.indiagate {
+  background-image: url(assets/India\ gate.jpg);
+  min-height: 100%;
+}
+.goa {
+  background-image: url(assets/Goa.jpg);
+  min-height: 100%;
+}
+.dudhasagar {
+  background-image: url(assets/dudhasagar\ waterfall.jpg);
+  min-height: 100%;
+}
+.shillong {
+  background-image: url(assets/shillong.jpg);
+  min-height: 100%;
+}
+
+
+.flag,
+.tajmahal,
+.jaipur,
+.ladakh,
+.indiagate,
+.goa,
+.dudhasagar, 
+.shillong {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+span {
+  color: white;
+  background-color: #313534;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+
+.section1 {
+  text-align: center;
+  padding: 50px 80px;
+  color: #313534;
+}
+
+.section2 {
+  text-align: center;
+  padding: 50px 80px;
+  background-color: #313534;
+  color: white;
+}
+.section3 {
+  text-align: center;
+  padding: 50px 80px;
+  background-color: #313534;
+  color: white;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+
+}
+a:hover{
+  color: rgb(255, 255, 255);
+  /* font-weight: bold; */
+  background-color: rgb(0, 0, 0);
+}
+.end{
+  color: white;
+  background-color: #313534;
+  font-weight: 100;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+a.end{
+  display: flex;
+  justify-content: center;
+}
+h2{
+  margin-top: 0px;
+}
