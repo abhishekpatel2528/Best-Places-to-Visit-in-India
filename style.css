@@ -67,6 +67,8 @@ body {
   font-size: 27px;
   letter-spacing: 8px;
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
 }
 
 span {
@@ -85,13 +87,13 @@ span {
 
 .section2 {
   text-align: center;
-  padding: 50px 80px;
+  padding: 50px 20px;
   background-color: #313534;
   color: white;
 }
 .section3 {
   text-align: center;
-  padding: 50px 80px;
+  padding: 50px 20px;
   background-color: #313534;
   color: white;
 }
